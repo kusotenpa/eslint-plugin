@@ -34,6 +34,10 @@ module.exports = {
     eqeqeq: [ 2, 'always' ],
     'eol-last': 2,
     'func-call-spacing': 2,
+    indent: [ 2, 2, {
+      SwitchCase: 1,
+      MemberExpression: 1,
+    } ],
     'jsx-quotes': [ 2, 'prefer-single' ],
     'key-spacing': 2,
     'keyword-spacing': 2,

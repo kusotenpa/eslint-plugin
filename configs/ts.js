@@ -27,6 +27,7 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': 2,
 
     'no-unused-vars': 0,
+    indent: 0,
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
