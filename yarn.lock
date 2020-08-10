@@ -24,9 +24,8 @@
     js-tokens "^4.0.0"
 
 "@kusotenpa/eslint-plugin@file:.":
-  version "1.0.0"
+  version "1.0.1"
   dependencies:
-    "@kusotenpa/eslint-plugin" "file:../../../Library/Caches/Yarn/v6/npm-@kusotenpa-eslint-plugin-1.0.0-00680ef2-f64e-4bc0-88aa-40dd5dd75918-1596987990372/node_modules/@kusotenpa/eslint-plugin"
     "@typescript-eslint/eslint-plugin" "3.8.0"
     "@typescript-eslint/parser" "3.8.0"
     eslint-plugin-import "2.22.0"
