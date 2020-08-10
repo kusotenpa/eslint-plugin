@@ -117,14 +117,14 @@ module.exports = {
         next: [ 'export' ],
       },
       {
-        blankLine: 'always',
+        blankLine: 'any',
         prev: [ 'cjs-import' ],
         next: '*',
       },
       {
-        blankLine: 'never',
+        blankLine: 'any',
         prev: '*',
-        next: [ 'cjs-import' ],
+        next: 'cjs-import',
       },
       {
         blankLine: 'always',
@@ -135,7 +135,7 @@ module.exports = {
         blankLine: 'always',
         prev: 'directive',
         next: '*',
-      }
+      },
     ],
     quotes: [ 2, 'single' ],
     'quote-props': [ 2, 'as-needed' ],
