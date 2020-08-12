@@ -4,6 +4,7 @@ module.exports = {
   plugins: [
     'import',
     'modules-newline',
+    'destructuring-newline',
   ],
   extends: [
     'eslint:recommended',
@@ -156,6 +157,8 @@ module.exports = {
       },
       'newlines-between': 'always',
     } ],
+
+    'destructuring-newline/object-property-newline': 2,
 
     'modules-newline/import-declaration-newline': 2,
   },
