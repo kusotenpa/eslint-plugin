@@ -39,6 +39,7 @@ module.exports = {
       afterOpening: 'never',
     } ],
     'react/no-this-in-sfc': 2,
+    'react/self-closing-comp': 2,
 
     'react/prop-types': 0,
     'react/display-name': 0,
