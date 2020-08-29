@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommitsDisabled"
+  ],
+  "ignorePresets": [
+    ":prHourlyLimit2",
+    ":prConcurrentLimit20"
+  ],
+  "timezone": "Asia/Tokyo",
+  "labels": ["renovate"],
+  "rebaseLabel": "rebase needed",
+  "prHourlyLimit": 0,
+  "unpublishSafe": true,
+  "schedule": ["every weekend"],
+  "patch": {
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "depTypeList": [
+        "devDependencies",
+        "peerDependencies"
+      ],
+      "automerge": true
+    }
+  ]
+}
