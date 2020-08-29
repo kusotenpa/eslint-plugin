@@ -13,15 +13,17 @@
   "prHourlyLimit": 0,
   "unpublishSafe": true,
   "schedule": ["every weekend"],
-  "patch": {
-    "automerge": true
-  },
   "packageRules": [
     {
       "depTypeList": [
         "devDependencies",
         "peerDependencies"
       ],
+      "automerge": true
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["patch"],
       "automerge": true
     }
   ]
