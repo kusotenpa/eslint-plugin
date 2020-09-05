@@ -13,8 +13,8 @@
     "eslint": "7.8.1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "3.10.1",
-    "@typescript-eslint/parser": "3.10.1",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1",
     "eslint-plugin-destructuring-newline": "0.0.2",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-modules-newline": "0.0.4",
