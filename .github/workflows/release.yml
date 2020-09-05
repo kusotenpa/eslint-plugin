@@ -18,11 +18,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - name: Up Version
+          registry-url: 'https://registry.npmjs.org'
+      - name: Craete Version
         run: |
           git config user.name "GitHub Action"
           yarn version --${{github.event.inputs.version}}
-          git push origin --tags
-          yarn publish
+      - name: Push Version
+        run: git push origin --tags
+      - name: Publish
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
