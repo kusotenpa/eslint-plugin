@@ -13,6 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    '@typescript-eslint/consistent-type-imports': 2,
     '@typescript-eslint/indent': [ 2, 2, {
       SwitchCase: 1,
       MemberExpression: 1,
