@@ -12,19 +12,20 @@
   "rebaseLabel": "rebase needed",
   "prHourlyLimit": 0,
   "unpublishSafe": true,
-  "schedule": ["every weekend"],
   "packageRules": [
     {
       "depTypeList": [
         "devDependencies",
         "peerDependencies"
       ],
-      "automerge": true
+      "automerge": true,
+      "labels": ["auto merge"]
     },
     {
       "depTypeList": ["dependencies"],
       "updateTypes": ["patch"],
-      "automerge": true
+      "automerge": true,
+      "labels": ["auto merge"]
     }
   ]
 }
