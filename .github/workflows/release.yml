@@ -24,6 +24,8 @@ jobs:
           git config user.name "GitHub Action"
           yarn version --${{github.event.inputs.version}}
       - name: Push Version
+        run: git push origin
+      - name: Push Tag
         run: git push origin --tags
       - name: Publish
         run: yarn publish
