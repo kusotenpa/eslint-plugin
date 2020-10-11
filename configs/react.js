@@ -17,6 +17,7 @@ module.exports = {
     },
   },
   rules: {
+    'react/button-has-type': 2,
     'react/jsx-closing-bracket-location': [ 2, 'line-aligned' ],
     'react/jsx-equals-spacing': [ 2, 'never' ],
     'react/jsx-first-prop-new-line': [ 2, 'multiline' ],
