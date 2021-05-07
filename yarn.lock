@@ -45,7 +45,7 @@
     "@typescript-eslint/parser" "4.4.0"
     eslint-plugin-destructuring-newline "0.0.2"
     eslint-plugin-import "2.22.1"
-    eslint-plugin-modules-newline "0.0.4"
+    eslint-plugin-modules-newline "0.0.6"
     eslint-plugin-node "11.1.0"
     eslint-plugin-react "7.21.4"
     eslint-plugin-react-hooks "4.1.2"
@@ -522,10 +522,10 @@ eslint-plugin-import@2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-modules-newline@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-modules-newline/-/eslint-plugin-modules-newline-0.0.4.tgz#6e872a990c687275a63984fab86de3a734064a28"
-  integrity sha512-5R/PqRZp86eQeKmgj2ZZ9z800vW8JSKRQDTLOBT7n7g8A7MZpBEKoEjFOk00E8ZittrrO5w2R1+4jA9FQztPHQ==
+eslint-plugin-modules-newline@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-modules-newline/-/eslint-plugin-modules-newline-0.0.6.tgz#310093ee8656efe92a8c6f9cb3aa5df9fea6331c"
+  integrity sha512-69NpBr68U6pmXL+y+KHl/64PwRarceC3/sCNUVxRbe0gPI32SIw8AtdpkqNiJYCa2yMd4lRrkrnU09Yio7KVzA==
   dependencies:
     requireindex "~1.1.0"
 
