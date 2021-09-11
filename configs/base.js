@@ -57,6 +57,7 @@ module.exports = {
     'no-multiple-empty-lines': [ 2, {
       max: 1,
       maxEOF: 0,
+      maxBOF: 0,
     } ],
     'no-param-reassign': 2,
     'no-promise-executor-return': 2,
