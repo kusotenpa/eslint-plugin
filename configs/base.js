@@ -152,6 +152,7 @@ module.exports = {
     'space-infix-ops': 2,
 
     'import/newline-after-import': 2,
+    'import/no-useless-path-segments': 2,
     'import/order': [ 2, {
       alphabetize: {
         order: 'asc',
