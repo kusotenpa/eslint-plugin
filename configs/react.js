@@ -16,6 +16,11 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'react/button-has-type': 2,
     'react/jsx-closing-bracket-location': [ 2, 'line-aligned' ],
