@@ -3,7 +3,7 @@
 module.exports = {
   plugins: [
     'import',
-    'modules-newline',
+    'import-newlines',
     'destructuring-newline',
   ],
   extends: [
@@ -160,8 +160,13 @@ module.exports = {
       'newlines-between': 'always',
     } ],
 
-    'destructuring-newline/object-property-newline': 2,
+    'import-newlines/enforce': [
+      2,
+      {
+        items: 1,
+      },
+    ],
 
-    'modules-newline/import-declaration-newline': 2,
+    'destructuring-newline/object-property-newline': 2,
   },
 }

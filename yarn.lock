@@ -60,6 +60,7 @@
     "@typescript-eslint/parser" "5.10.0"
     eslint-plugin-destructuring-newline "0.0.2"
     eslint-plugin-import "2.25.4"
+    eslint-plugin-import-newlines "1.1.7"
     eslint-plugin-jsx-a11y "6.5.1"
     eslint-plugin-node "11.1.0"
     eslint-plugin-react "7.28.0"
@@ -575,6 +576,11 @@ eslint-plugin-es@^3.0.0:
   dependencies:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
+
+eslint-plugin-import-newlines@1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import-newlines/-/eslint-plugin-import-newlines-1.1.7.tgz#5dc64f9804cb450c2537577d57120aec07b3908b"
+  integrity sha512-fWtUGV/8+8wiZZPeEsxI+7l5bscsOj9nEWUsxoQWEccKo+l5S5tsvJL9NUI83WZr+koNrIWLfdenKTYCMjQUpA==
 
 eslint-plugin-import@2.25.4:
   version "2.25.4"
