@@ -14,15 +14,15 @@
     "typescript": "4.8.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.10.2",
-    "@typescript-eslint/parser": "5.10.2",
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
     "eslint-plugin-destructuring-newline": "0.0.2",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-import-newlines": "1.1.8",
-    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import-newlines": "1.2.3",
+    "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0"
-  }
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0"
+  },
   "packageManager": "yarn@3.2.3"
 }
