@@ -24,6 +24,7 @@ module.exports = {
   },
   rules: {
     'react/button-has-type': 2,
+    'react/iframe-missing-sandbox': 2,
     'react/jsx-closing-bracket-location': [ 2, 'line-aligned' ],
     'react/jsx-equals-spacing': [ 2, 'never' ],
     'react/jsx-first-prop-new-line': [ 2, 'multiline' ],
@@ -31,6 +32,11 @@ module.exports = {
     'react/jsx-max-props-per-line': [ 2, {
       maximum: 1,
     } ],
+    'react/jsx-newline': [ 2, {
+      prevent: true,
+    } ],
+    'react/jsx-no-constructed-context-values': 2,
+    'react/jsx-no-leaked-render': 2,
     'react/jsx-no-target-blank': 2,
     'react/jsx-one-expression-per-line': [ 2, {
       allow: 'single-child',
@@ -45,6 +51,7 @@ module.exports = {
       beforeSelfClosing: 'always',
       afterOpening: 'never',
     } ],
+    'react/no-invalid-html-attribute': 2,
     'react/no-this-in-sfc': 2,
     'react/self-closing-comp': 2,
 

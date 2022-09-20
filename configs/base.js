@@ -65,6 +65,7 @@ module.exports = {
     'no-shadow': 2,
     'no-trailing-spaces': 2,
     'no-tabs': 2,
+    'no-unused-private-class-members': 2,
     'no-unneeded-ternary': 2,
     'no-var': 2,
     'object-curly-newline': [ 2, {
