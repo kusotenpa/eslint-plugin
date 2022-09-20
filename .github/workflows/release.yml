@@ -3,31 +3,39 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version: patch or minor or major'
+        description: 'Bump <?>'
         required: true
         default: 'patch'
-
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+          - prerelease
+          - prepatch
+          - preminor
+          - premajor
 jobs:
   up-version:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Checout
-        uses: actions/checkout@v2
-      - name: Set Node.js 12
-        uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set Node.js 16
+        uses: actions/setup-node@v3
         with:
-          node-version: '12'
+          node-version: '16'
           registry-url: 'https://registry.npmjs.org'
-      - name: Craete Version
+      - name: Bump Version
         run: |
           git config user.name "GitHub Action"
-          yarn version --${{github.event.inputs.version}}
+          npm version ${{github.event.inputs.version}}
       - name: Push Version
         run: git push origin
       - name: Push Tag
         run: git push origin --tags
       - name: Publish
-        run: yarn publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
