@@ -69,9 +69,6 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-var': 2,
     'object-curly-newline': [ 2, {
-      ObjectExpression: {
-        minProperties: 1,
-      },
       ObjectPattern: {
         multiline: true,
       },
