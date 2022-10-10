@@ -68,7 +68,7 @@ __metadata:
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
   version: 4.1.0
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=c117d8&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=9ae5f1&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
@@ -82,7 +82,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: 7fb2d983748b3fcb9da129b46b1dd01df244b6a56ac6c7de460315d1ee9f1617730451bb5916b869979096b180beec356e69818660551c5492489468cced481f
+  checksum: a659e6fa656c2b422848c15424c12b5ab23b39e11da8e735e07dc45f6d85320db692d3da51650023e1707e163c1e7d481724ddc330fbd65d3614cf4dae2685c7
   languageName: node
   linkType: hard
 
@@ -2263,11 +2263,11 @@ __metadata:
 
 "typescript@patch:typescript@4.8.4#~builtin<compat/typescript>":
   version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
+  checksum: 301459fc3eb3b1a38fe91bf96d98eb55da88a9cb17b4ef80b4d105d620f4d547ba776cc27b44cc2ef58b66eda23fe0a74142feb5e79a6fb99f54fc018a696afa
   languageName: node
   linkType: hard
 
