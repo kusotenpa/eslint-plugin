@@ -68,7 +68,7 @@ __metadata:
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
   version: 4.1.0
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=c117d8&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=8bd988&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
@@ -78,11 +78,11 @@ __metadata:
     eslint-plugin-import-newlines: 1.2.3
     eslint-plugin-jsx-a11y: 6.6.1
     eslint-plugin-node: 11.1.0
-    eslint-plugin-react: 7.31.8
+    eslint-plugin-react: 7.31.10
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: 7fb2d983748b3fcb9da129b46b1dd01df244b6a56ac6c7de460315d1ee9f1617730451bb5916b869979096b180beec356e69818660551c5492489468cced481f
+  checksum: e29e0af6f2fff96ad2690cd89785e4ecc217facd3de223ea096a22edcc823b192a273c702ea7dd6b253e3333861ee10a0e9722414903f7c1f4b42c5ac29b4392
   languageName: node
   linkType: hard
 
@@ -100,7 +100,7 @@ __metadata:
     eslint-plugin-import-newlines: 1.2.3
     eslint-plugin-jsx-a11y: 6.6.1
     eslint-plugin-node: 11.1.0
-    eslint-plugin-react: 7.31.8
+    eslint-plugin-react: 7.31.10
     eslint-plugin-react-hooks: 4.6.0
     typescript: 4.8.4
   peerDependencies:
@@ -809,9 +809,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.31.8":
-  version: 7.31.8
-  resolution: "eslint-plugin-react@npm:7.31.8"
+"eslint-plugin-react@npm:7.31.10":
+  version: 7.31.10
+  resolution: "eslint-plugin-react@npm:7.31.10"
   dependencies:
     array-includes: ^3.1.5
     array.prototype.flatmap: ^1.3.0
@@ -829,7 +829,7 @@ __metadata:
     string.prototype.matchall: ^4.0.7
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 0683e2a624a4df6f08264a3f6bc614a81e8f961c83173bdf2d8d3523f84ed5d234cddc976dbc6815913e007c5984df742ba61be0c0592b27c3daabe0f68165a3
+  checksum: f013669c296483559a760648fa06425f161b1aff93c668f14c4561c933d22a7836b745b88a795c53cab929c71513d5fd1f2ffdddff915709f01b77ac25f5b71b
   languageName: node
   linkType: hard
 
