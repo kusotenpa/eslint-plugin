@@ -158,12 +158,11 @@ module.exports = {
       'newlines-between': 'always',
     } ],
 
-    'import-newlines/enforce': [
-      2,
-      {
-        items: 1,
-      },
-    ],
+    'import-newlines/enforce': [ 2, {
+      items: 1,
+      semi: false,
+      forceSingleLine: false,
+    } ],
 
     'destructuring-newline/object-property-newline': 2,
   },

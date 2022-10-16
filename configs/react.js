@@ -12,7 +12,7 @@ module.exports = {
   ],
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: '2020',
+    ecmaVersion: 'latest',
     ecmaFeatures: {
       jsx: true,
     },
@@ -36,7 +36,6 @@ module.exports = {
       prevent: true,
     } ],
     'react/jsx-no-constructed-context-values': 2,
-    'react/jsx-no-leaked-render': 2,
     'react/jsx-no-target-blank': 2,
     'react/jsx-one-expression-per-line': [ 2, {
       allow: 'single-child',

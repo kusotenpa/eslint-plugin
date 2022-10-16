@@ -8,13 +8,11 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/strict',
-    'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
   settings: {
-    'import/resolver': {
-      typescript: true,
-      node: true,
+    'import/parsers': {
+      '@typescript-eslint/parser': [ '.ts', '.tsx' ],
     },
   },
   parserOptions: {
