@@ -67,12 +67,12 @@ __metadata:
   linkType: hard
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
-  version: 4.1.0
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=8bd988&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  version: 4.2.0
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=e8c6dc&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
-    eslint-import-resolver-typescript: 3.5.1
+    eslint-import-resolver-typescript: 3.5.2
     eslint-plugin-destructuring-newline: 0.0.2
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
@@ -82,7 +82,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: e29e0af6f2fff96ad2690cd89785e4ecc217facd3de223ea096a22edcc823b192a273c702ea7dd6b253e3333861ee10a0e9722414903f7c1f4b42c5ac29b4392
+  checksum: dbcf9f60368176faef781e3fa74540d38379ee57f60fab9d992d461e5db894ca4ba42ffeddc22d474ec7ec69a99240b65cd517314e0a3d149ed2022deb0284f4
   languageName: node
   linkType: hard
 
@@ -94,7 +94,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
     eslint: 8.25.0
-    eslint-import-resolver-typescript: 3.5.1
+    eslint-import-resolver-typescript: 3.5.2
     eslint-plugin-destructuring-newline: 0.0.2
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
@@ -676,9 +676,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.1":
-  version: 3.5.1
-  resolution: "eslint-import-resolver-typescript@npm:3.5.1"
+"eslint-import-resolver-typescript@npm:3.5.2":
+  version: 3.5.2
+  resolution: "eslint-import-resolver-typescript@npm:3.5.2"
   dependencies:
     debug: ^4.3.4
     enhanced-resolve: ^5.10.0
@@ -686,11 +686,11 @@ __metadata:
     globby: ^13.1.2
     is-core-module: ^2.10.0
     is-glob: ^4.0.3
-    synckit: ^0.8.3
+    synckit: ^0.8.4
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: d7a7a33c9fd8b52ae25bd432c3e0b157a9c38d1254325311e04f450083197d47d823ebca447e7b5bfe9b9a959de8d2edbafb028406c2532fd7aa95fe31812a48
+  checksum: e163f36072c31150671973eb784e6b2a5d1e5dcc4c8ac19a01d9f1f4223ed07bc4c7ab235bef6caecb1949ba74eea20048cbbb4d6ac7de5f02bdd50c29485a4c
   languageName: node
   linkType: hard
 
@@ -2155,7 +2155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.8.3":
+"synckit@npm:^0.8.4":
   version: 0.8.4
   resolution: "synckit@npm:0.8.4"
   dependencies:
