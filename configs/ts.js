@@ -102,6 +102,16 @@ module.exports = {
         next: [ 'for', 'while', 'if', 'switch', 'return' ],
       },
       {
+        blankLine: 'any',
+        prev: [ 'require' ],
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: '*',
+        next: 'require',
+      },
+      {
         blankLine: 'always',
         prev: '*',
         next: [ 'export' ],
