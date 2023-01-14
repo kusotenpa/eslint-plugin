@@ -68,11 +68,11 @@ __metadata:
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
   version: 4.2.1
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=09e80b&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=62eb40&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
-    eslint-import-resolver-typescript: 3.5.2
+    eslint-import-resolver-typescript: 3.5.3
     eslint-plugin-destructuring-newline: 0.0.2
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
@@ -82,7 +82,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: 7ca734b5c62cdb380a02a01f6c5fb8412a1cc5bfa93063fc4c8c12df2c0d94fecc7a6d3a7af0402ed45e1c84c2de0d432fd8a7249d63fdff8dbbeda27984fa75
+  checksum: 72a3107d539aaede98578621260f816d8d18f98967958f8795a081246b4eeb4a465a9572979fb4b61aa6a456cdcf71dda7ac41eff792e4a05d6e64c5fa6646d6
   languageName: node
   linkType: hard
 
@@ -94,7 +94,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
     eslint: 8.31.0
-    eslint-import-resolver-typescript: 3.5.2
+    eslint-import-resolver-typescript: 3.5.3
     eslint-plugin-destructuring-newline: 0.0.2
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
@@ -734,9 +734,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.2":
-  version: 3.5.2
-  resolution: "eslint-import-resolver-typescript@npm:3.5.2"
+"eslint-import-resolver-typescript@npm:3.5.3":
+  version: 3.5.3
+  resolution: "eslint-import-resolver-typescript@npm:3.5.3"
   dependencies:
     debug: ^4.3.4
     enhanced-resolve: ^5.10.0
@@ -748,7 +748,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: e163f36072c31150671973eb784e6b2a5d1e5dcc4c8ac19a01d9f1f4223ed07bc4c7ab235bef6caecb1949ba74eea20048cbbb4d6ac7de5f02bdd50c29485a4c
+  checksum: 63b5f28bec5a29b1d3be33b79795441f7b0da54479e5c99a115877d9b70b2b7464c19a928b4ae7674a937b9ee8e7d4b1d30b7f5e6325c4c3aaa8c607bb175258
   languageName: node
   linkType: hard
 
