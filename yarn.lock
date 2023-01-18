@@ -68,7 +68,7 @@ __metadata:
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
   version: 4.2.1
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=62eb40&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=0d90f0&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
@@ -82,7 +82,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: 72a3107d539aaede98578621260f816d8d18f98967958f8795a081246b4eeb4a465a9572979fb4b61aa6a456cdcf71dda7ac41eff792e4a05d6e64c5fa6646d6
+  checksum: ebf015ba5d816942a3fda53002c6aa567db062f4430bbeb3a4509001efbbc7b3169c78742fb0ad4666f58364a49b598bdd59b9997d11edb14265c8ba0e9be68b
   languageName: node
   linkType: hard
 
@@ -93,7 +93,7 @@ __metadata:
     "@kusotenpa/eslint-plugin": "file:."
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
-    eslint: 8.31.0
+    eslint: 8.32.0
     eslint-import-resolver-typescript: 3.5.3
     eslint-plugin-destructuring-newline: 0.0.2
     eslint-plugin-import: 2.26.0
@@ -953,9 +953,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.31.0":
-  version: 8.31.0
-  resolution: "eslint@npm:8.31.0"
+"eslint@npm:8.32.0":
+  version: 8.32.0
+  resolution: "eslint@npm:8.32.0"
   dependencies:
     "@eslint/eslintrc": ^1.4.1
     "@humanwhocodes/config-array": ^0.11.8
@@ -998,7 +998,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 5e5688bb864edc6b12d165849994812eefa67fb3fc44bb26f53659b63edcd8bcc68389d27cc6cc9e5b79ee22f24b6f311fa3ed047bddcafdec7d84c1b5561e4f
+  checksum: 23c8fb3c57291eecd9c1448faf603226a8f885022a2cd96e303459bf72e39b7f54987c6fb948f0f9eecaf7085600e6eb0663482a35ea83da12e9f9141a22b91e
   languageName: node
   linkType: hard
 
