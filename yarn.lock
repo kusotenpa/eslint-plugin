@@ -93,12 +93,12 @@ __metadata:
 
 "@kusotenpa/eslint-plugin@file:.::locator=%40kusotenpa%2Feslint-plugin%40workspace%3A.":
   version: 4.2.1
-  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=f292f1&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
+  resolution: "@kusotenpa/eslint-plugin@file:.#.::hash=989ce2&locator=%40kusotenpa%2Feslint-plugin%40workspace%3A."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.37.0
     "@typescript-eslint/parser": 5.37.0
     eslint-import-resolver-typescript: 3.5.3
-    eslint-plugin-destructuring-newline: 0.0.2
+    eslint-plugin-destructuring-newline: 0.1.1
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
     eslint-plugin-jsx-a11y: 6.6.1
@@ -107,7 +107,7 @@ __metadata:
     eslint-plugin-react-hooks: 4.6.0
   peerDependencies:
     eslint: ">=8"
-  checksum: ea6befadea2d5091f5ff4edb3a93f2d535894bedd28674281e570d7dbfb63300d0edb4577dd2b8578d13341f2a946dd523b15cf6c071a43cfb1110c45b7fe960
+  checksum: e837c5a713a5a8759da695e38faa268b9afb24b66c7e052d0120cd9868791065ef4642aab8535bd67d59a8a2ee0e052a8b7e0eba27387dce2b04915d13292307
   languageName: node
   linkType: hard
 
@@ -120,7 +120,7 @@ __metadata:
     "@typescript-eslint/parser": 5.37.0
     eslint: 8.36.0
     eslint-import-resolver-typescript: 3.5.3
-    eslint-plugin-destructuring-newline: 0.0.2
+    eslint-plugin-destructuring-newline: 0.1.1
     eslint-plugin-import: 2.26.0
     eslint-plugin-import-newlines: 1.2.3
     eslint-plugin-jsx-a11y: 6.6.1
@@ -789,12 +789,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-destructuring-newline@npm:0.0.2":
-  version: 0.0.2
-  resolution: "eslint-plugin-destructuring-newline@npm:0.0.2"
+"eslint-plugin-destructuring-newline@npm:0.1.1":
+  version: 0.1.1
+  resolution: "eslint-plugin-destructuring-newline@npm:0.1.1"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 7e0460a667aafcb21ab613e01ea136d3eddb1a300d16032c717a773c6eed6106948935e73850404a2ab427dcd8ae3ca01057861ede34c3ad13b0b1e9adf736fc
+  checksum: c3667ea101ac75b49aff558e112ea495b93ef651f4fd38b9e6858094707072e10684884efffcee5e214be0e9db2fc50f9147c77e05b6fd80654c3d8b9fdbc44c
   languageName: node
   linkType: hard
 
