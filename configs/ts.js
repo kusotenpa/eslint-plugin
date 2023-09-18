@@ -125,7 +125,7 @@ module.exports = {
     '@typescript-eslint/quotes': [ 2, 'single' ],
     '@typescript-eslint/type-annotation-spacing': 2,
     '@typescript-eslint/semi': [ 2, 'never' ],
-    '@typescript-eslint/sort-type-union-intersection-members': 2,
+    '@typescript-eslint/sort-type-constituents': 2,
     '@typescript-eslint/space-before-blocks': 2,
     '@typescript-eslint/space-before-function-paren': [ 2, 'never' ],
     '@typescript-eslint/space-infix-ops': 2,
