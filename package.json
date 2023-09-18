@@ -1,6 +1,6 @@
 {
   "name": "@kusotenpa/eslint-plugin",
-  "version": "4.2.1",
+  "version": "5.0.0",
   "main": "configs/index.js",
   "repository": "git@github.com:kusotenpa/eslint-plugin.git",
   "author": "tom",
