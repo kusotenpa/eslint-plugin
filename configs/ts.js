@@ -52,6 +52,7 @@ module.exports = {
       selector: 'typeAlias',
       format: [ 'PascalCase' ],
     } ],
+    '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/no-use-before-define': [ 2, {
       functions: false,
     } ],
