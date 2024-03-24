@@ -8,11 +8,12 @@ npm install --save-dev eslint @kusotenpa/eslint-plugin
 
 ## Usage
 
-```
-{
-    "extends": [
-        "plugin:@kusotenpa/base",
-        "plugin:@kusotenpa/+ts"
-    ]
-}
+```ts
+import plugin from '@kusotenpa/eslint-plugin'
+
+export default [
+  ...plugin.configs.js,
+  ...plugin.configs.ts,
+  ...plugin.configs.react,
+]
 ```

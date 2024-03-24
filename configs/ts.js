@@ -1,155 +1,51 @@
-'use strict'
+import stylistic from '@stylistic/eslint-plugin'
+import importPlugin from 'eslint-plugin-import'
+import perfectionist from 'eslint-plugin-perfectionist'
+import tsEslint from 'typescript-eslint'
 
-module.exports = {
-  plugins: [
-    'import',
-    '@typescript-eslint',
-  ],
+import base from './base.js'
+
+/* eslint-disable perfectionist/sort-objects */
+export default tsEslint.config({
+  files: [ '**/*.{ts,tsx}' ],
   extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/strict',
+    ...base,
+    ...tsEslint.configs.recommendedTypeChecked,
+    ...tsEslint.configs.strict,
   ],
-  parser: '@typescript-eslint/parser',
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': [ '.ts', '.tsx' ],
-    },
-    'import/resolver': {
-      typescript: {
-        typescript: true,
-        node: true,
-      },
-    },
+  plugins: {
+    '@typescript-eslint': tsEslint.plugin,
+    import: importPlugin,
+    perfectionist,
+    stylistic,
   },
-  parserOptions: {
-    sourceType: 'module',
+  settings: {
+    'import/extensions': [ '.ts', '.tsx' ],
+    'import/parsers': { '@typescript-eslint/parser': [ '.ts', '.tsx' ] },
   },
   rules: {
-    '@typescript-eslint/brace-style': 2,
-    '@typescript-eslint/comma-spacing': [ 2, {
-      before: false,
-      after: true,
-    } ],
     '@typescript-eslint/consistent-indexed-object-style': 2,
-    '@typescript-eslint/consistent-type-exports': 2,
     '@typescript-eslint/consistent-type-definitions': [ 2, 'type' ],
-    '@typescript-eslint/consistent-type-imports': 2,
-    '@typescript-eslint/func-call-spacing': 2,
-    '@typescript-eslint/indent': [ 2, 2, {
-      SwitchCase: 1,
-      MemberExpression: 1,
-    } ],
-    '@typescript-eslint/keyword-spacing': 2,
-    '@typescript-eslint/member-delimiter-style': [ 2, {
-      multiline: {
-        delimiter: 'none',
-      },
-      singleline: {
-        delimiter: 'semi',
-      },
-    } ],
+    '@typescript-eslint/consistent-type-exports': [ 2, { fixMixedExportsWithInlineTypeSpecifier: true } ],
+    '@typescript-eslint/consistent-type-imports': [ 2, { fixStyle: 'inline-type-imports' } ],
     '@typescript-eslint/naming-convention': [ 2, {
       selector: 'typeAlias',
       format: [ 'PascalCase' ],
     } ],
     '@typescript-eslint/no-unused-vars': 1,
-    '@typescript-eslint/no-use-before-define': [ 2, {
-      functions: false,
-    } ],
-    '@typescript-eslint/object-curly-spacing': [ 2, 'always' ],
-    '@typescript-eslint/padding-line-between-statements': [ 2,
-      {
-        blankLine: 'always',
-        prev: [ 'const', 'let' ],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
-        prev: [ '*' ],
-        next: [ 'const', 'let' ],
-      },
-      {
-        blankLine: 'never',
-        prev: [ 'const', 'let' ],
-        next: [ 'const', 'let' ],
-      },
-      {
-        blankLine: 'always',
-        prev: [ 'interface', 'type' ],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
-        prev: [ 'interface', 'type' ],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
-        prev: '*',
-        next: [ 'interface', 'type' ],
-      },
-      {
-        blankLine: 'never',
-        prev: [ 'interface', 'type' ],
-        next: [ 'interface', 'type' ],
-      },
-      {
-        blankLine: 'always',
-        prev: [ 'multiline-const' ],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
-        prev: [ 'for', 'while', 'if', 'switch' ],
-        next: '*',
-      },
-      {
-        blankLine: 'always',
-        prev: '*',
-        next: [ 'for', 'while', 'if', 'switch', 'return' ],
-      },
-      {
-        blankLine: 'any',
-        prev: [ 'require' ],
-        next: '*',
-      },
-      {
-        blankLine: 'any',
-        prev: '*',
-        next: 'require',
-      },
-      {
-        blankLine: 'always',
-        prev: '*',
-        next: [ 'export' ],
-      },
-      {
-        blankLine: 'always',
-        prev: 'directive',
-        next: '*',
-      },
-    ],
-    '@typescript-eslint/quotes': [ 2, 'single' ],
-    '@typescript-eslint/type-annotation-spacing': 2,
-    '@typescript-eslint/semi': [ 2, 'never' ],
+    '@typescript-eslint/no-use-before-define': [ 2, { functions: false } ],
     '@typescript-eslint/sort-type-constituents': 2,
-    '@typescript-eslint/space-before-blocks': 2,
-    '@typescript-eslint/space-before-function-paren': [ 2, 'never' ],
-    '@typescript-eslint/space-infix-ops': 2,
 
-    'brace-style': 0,
-    'comma-spacing': 0,
-    'func-call-spacing': 0,
-    indent: 0,
-    'keyword-spacing': 0,
-    'no-unused-vars': 0,
-    'object-curly-spacing': 0,
-    'padding-line-between-statements': 0,
-    quotes: 0,
-    semi: 0,
-    'space-before-blocks': 0,
-    'space-before-function-paren': 0,
-    'space-infix-ops': 0,
+    '@stylistic/member-delimiter-style': [ 2, {
+      multiline: { delimiter: 'none' },
+      singleline: { delimiter: 'semi' },
+    } ],
+    '@stylistic/type-annotation-spacing': 2,
+
+    'import/consistent-type-specifier-style': [ 2, 'prefer-inline' ],
+    'import/no-duplicates': [ 2, { 'prefer-inline': true } ],
+
+    'perfectionist/sort-object-types': 2,
 
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
@@ -159,4 +55,4 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/no-var-requires': 0,
   },
-}
+})
