@@ -36,57 +36,82 @@ export default [
       'prefer-const': 2,
       'sort-imports': [ 2, { ignoreDeclarationSort: true } ],
 
+      '@stylistic/array-bracket-newline': [ 2, { multiline: true } ],
       '@stylistic/array-bracket-spacing': [ 2, 'always' ],
+      '@stylistic/array-element-newline': [
+        2,
+        {
+          minItems: 3,
+          multiline: true,
+        },
+      ],
       '@stylistic/arrow-parens': [ 2, 'as-needed' ],
       '@stylistic/arrow-spacing': 2,
       '@stylistic/brace-style': 2,
       '@stylistic/comma-dangle': [ 2, 'always-multiline' ],
-      '@stylistic/comma-spacing': [ 2, {
-        before: false,
-        after: true,
-      } ],
+      '@stylistic/comma-spacing': [
+        2,
+        {
+          before: false,
+          after: true,
+        },
+      ],
       '@stylistic/computed-property-spacing': [ 2, 'always' ],
       '@stylistic/eol-last': 2,
       '@stylistic/func-call-spacing': 2,
-      '@stylistic/indent': [ 2, 2, {
-        SwitchCase: 1,
-        MemberExpression: 1,
-      } ],
+      '@stylistic/function-paren-newline': [ 2, 'multiline-arguments' ],
+      '@stylistic/indent': [
+        2,
+        2,
+        {
+          SwitchCase: 1,
+          MemberExpression: 1,
+        },
+      ],
       '@stylistic/jsx-quotes': [ 2, 'prefer-single' ],
       '@stylistic/key-spacing': 2,
       '@stylistic/keyword-spacing': 2,
-      '@stylistic/lines-around-comment': [ 2, { beforeLineComment: true } ],
-      '@stylistic/max-len': [ 2, {
-        code: 100,
-        tabWidth: 2,
-        ignoreUrls: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-      } ],
+      '@stylistic/max-len': [
+        2,
+        {
+          code: 100,
+          tabWidth: 2,
+          ignoreUrls: true,
+          ignoreStrings: true,
+          ignoreTemplateLiterals: true,
+        },
+      ],
       '@stylistic/max-statements-per-line': 2,
       '@stylistic/new-parens': 2,
       '@stylistic/no-multi-spaces': 2,
-      '@stylistic/no-multiple-empty-lines': [ 2, {
-        max: 1,
-        maxEOF: 0,
-        maxBOF: 0,
-      } ],
+      '@stylistic/no-multiple-empty-lines': [
+        2,
+        {
+          max: 1,
+          maxEOF: 0,
+          maxBOF: 0,
+        },
+      ],
       '@stylistic/no-tabs': 2,
       '@stylistic/no-trailing-spaces': 2,
       '@stylistic/no-whitespace-before-property': 2,
-      '@stylistic/object-curly-newline': [ 2, {
-        ObjectExpression: { multiline: true },
-        ObjectPattern: { multiline: true },
-        ImportDeclaration: {
-          multiline: true,
-          minProperties: 2,
+      '@stylistic/object-curly-newline': [
+        2,
+        {
+          ObjectExpression: { multiline: true },
+          ObjectPattern: { multiline: true },
+          ImportDeclaration: {
+            multiline: true,
+            minProperties: 2,
+          },
         },
-      } ],
+      ],
       '@stylistic/object-curly-spacing': [ 2, 'always' ],
       '@stylistic/object-property-newline': [ 2, { allowAllPropertiesOnSameLine: false } ],
       '@stylistic/operator-linebreak': [ 2, 'before' ],
       '@stylistic/padded-blocks': [ 2, 'never' ],
-      '@stylistic/padding-line-between-statements': [ 2,
+      '@stylistic/padding-line-between-statements': [
+        2,
         {
           blankLine: 'always',
           prev: [ 'const', 'let' ],
@@ -109,13 +134,24 @@ export default [
         },
         {
           blankLine: 'always',
-          prev: [ 'for', 'while', 'if', 'switch' ],
+          prev: [
+            'for',
+            'while',
+            'if',
+            'switch',
+          ],
           next: '*',
         },
         {
           blankLine: 'always',
           prev: '*',
-          next: [ 'for', 'while', 'if', 'switch', 'return' ],
+          next: [
+            'for',
+            'while',
+            'if',
+            'switch',
+            'return',
+          ],
         },
         {
           blankLine: 'always',
@@ -185,16 +221,22 @@ export default [
 
       'import/newline-after-import': 2,
       'import/no-useless-path-segments': 2,
-      'import/order': [ 2, {
-        alphabetize: { order: 'asc' },
-        'newlines-between': 'always',
-      } ],
+      'import/order': [
+        2,
+        {
+          alphabetize: { order: 'asc' },
+          'newlines-between': 'always',
+        },
+      ],
 
-      'import-newlines/enforce': [ 2, {
-        items: 1,
-        semi: false,
-        forceSingleLine: false,
-      } ],
+      'import-newlines/enforce': [
+        2,
+        {
+          items: 1,
+          semi: false,
+          forceSingleLine: false,
+        },
+      ],
 
       'perfectionist/sort-objects': 2,
     },
