@@ -99,8 +99,14 @@ export default [
       '@stylistic/object-curly-newline': [
         2,
         {
-          ObjectExpression: { multiline: true },
-          ObjectPattern: { multiline: true },
+          ObjectExpression: {
+            consistent: true,
+            minProperties: 2,
+          },
+          ObjectPattern: {
+            consistent: true,
+            minProperties: 2,
+          },
           ImportDeclaration: {
             multiline: true,
             minProperties: 2,
