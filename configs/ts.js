@@ -28,18 +28,24 @@ export default tsEslint.config({
     '@typescript-eslint/consistent-type-definitions': [ 2, 'type' ],
     '@typescript-eslint/consistent-type-exports': [ 2, { fixMixedExportsWithInlineTypeSpecifier: true } ],
     '@typescript-eslint/consistent-type-imports': [ 2, { fixStyle: 'inline-type-imports' } ],
-    '@typescript-eslint/naming-convention': [ 2, {
-      selector: 'typeAlias',
-      format: [ 'PascalCase' ],
-    } ],
+    '@typescript-eslint/naming-convention': [
+      2,
+      {
+        selector: 'typeAlias',
+        format: [ 'PascalCase' ],
+      },
+    ],
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/no-use-before-define': [ 2, { functions: false } ],
     '@typescript-eslint/sort-type-constituents': 2,
 
-    '@stylistic/member-delimiter-style': [ 2, {
-      multiline: { delimiter: 'none' },
-      singleline: { delimiter: 'semi' },
-    } ],
+    '@stylistic/member-delimiter-style': [
+      2,
+      {
+        multiline: { delimiter: 'none' },
+        singleline: { delimiter: 'semi' },
+      },
+    ],
     '@stylistic/type-annotation-spacing': 2,
 
     'import/consistent-type-specifier-style': [ 2, 'prefer-inline' ],

@@ -29,16 +29,22 @@ export default [
       'react/jsx-no-constructed-context-values': 2,
       'react/jsx-no-target-blank': 2,
       'react/jsx-one-expression-per-line': [ 2, { allow: 'single-child' } ],
-      'react/jsx-sort-props': [ 2, {
-        callbacksLast: true,
-        shorthandFirst: true,
-        reservedFirst: true,
-      } ],
-      'react/jsx-tag-spacing': [ 2, {
-        closingSlash: 'never',
-        beforeSelfClosing: 'always',
-        afterOpening: 'never',
-      } ],
+      'react/jsx-sort-props': [
+        2,
+        {
+          callbacksLast: true,
+          shorthandFirst: true,
+          reservedFirst: true,
+        },
+      ],
+      'react/jsx-tag-spacing': [
+        2,
+        {
+          closingSlash: 'never',
+          beforeSelfClosing: 'always',
+          afterOpening: 'never',
+        },
+      ],
       'react/no-invalid-html-attribute': 2,
       'react/no-this-in-sfc': 2,
       'react/self-closing-comp': 2,
