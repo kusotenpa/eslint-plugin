@@ -35,6 +35,7 @@ export default tsEslint.config({
         format: [ 'PascalCase' ],
       },
     ],
+    '@typescript-eslint/no-floating-promises': [ 2, { ignoreIIFE: true } ],
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/no-use-before-define': [ 2, { functions: false } ],
     '@typescript-eslint/sort-type-constituents': 2,
