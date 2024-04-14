@@ -7,7 +7,7 @@ import base from './base.js'
 
 /* eslint-disable perfectionist/sort-objects */
 export default tsEslint.config({
-  files: [ '**/*.{ts,tsx}' ],
+  files: [ '**/*.{js,ts,jsx,tsx}' ],
   extends: [
     ...base,
     ...tsEslint.configs.recommendedTypeChecked,
