@@ -59,6 +59,7 @@ export default [
       '@stylistic/computed-property-spacing': [ 2, 'always' ],
       '@stylistic/eol-last': 2,
       '@stylistic/func-call-spacing': 2,
+      '@stylistic/function-call-argument-newline': [ 2, 'consistent' ],
       '@stylistic/function-paren-newline': [ 2, 'multiline-arguments' ],
       '@stylistic/indent': [
         2,
