@@ -38,13 +38,7 @@ export default [
 
       '@stylistic/array-bracket-newline': [ 2, { multiline: true } ],
       '@stylistic/array-bracket-spacing': [ 2, 'always' ],
-      '@stylistic/array-element-newline': [
-        2,
-        {
-          minItems: 3,
-          multiline: true,
-        },
-      ],
+      '@stylistic/array-element-newline': [ 2, 'consistent' ],
       '@stylistic/arrow-parens': [ 2, 'as-needed' ],
       '@stylistic/arrow-spacing': 2,
       '@stylistic/brace-style': 2,
