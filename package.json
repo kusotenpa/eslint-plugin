@@ -31,7 +31,7 @@
     "@kusotenpa/eslint-plugin": "file:.",
     "@tsconfig/create-react-app": "2.0.2",
     "@tsconfig/recommended": "1.0.3",
-    "@types/eslint": "8.56.6",
+    "@types/eslint": "8.56.11",
     "@types/react": "18.2.69",
     "eslint": "8.57.0",
     "react": "18.2.0",
