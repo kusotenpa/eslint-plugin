@@ -1,5 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin'
-import importPlugin from 'eslint-plugin-import'
+import importPlugin from 'eslint-plugin-import-x'
 import perfectionist from 'eslint-plugin-perfectionist'
 import tsEslint from 'typescript-eslint'
 
@@ -7,7 +7,7 @@ import base from './base.js'
 
 /* eslint-disable perfectionist/sort-objects */
 export default tsEslint.config({
-  files: [ '**/*.{js,ts,jsx,tsx}' ],
+  files: [ '**/*.{ts,tsx}' ],
   extends: [
     ...base,
     ...tsEslint.configs.recommendedTypeChecked,
@@ -38,7 +38,6 @@ export default tsEslint.config({
     '@typescript-eslint/no-floating-promises': [ 2, { ignoreIIFE: true } ],
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/no-use-before-define': [ 2, { functions: false } ],
-    '@typescript-eslint/sort-type-constituents': 2,
 
     '@stylistic/member-delimiter-style': [
       2,
@@ -53,6 +52,8 @@ export default tsEslint.config({
     'import/no-duplicates': [ 2, { 'prefer-inline': true } ],
 
     'perfectionist/sort-object-types': 2,
+    'perfectionist/sort-intersection-types': 2,
+    'perfectionist/sort-union-types': 2,
 
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,

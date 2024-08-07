@@ -1,12 +1,12 @@
 import js from '@eslint/js'
 import stylistic from '@stylistic/eslint-plugin'
 import destructuringNewline from 'eslint-plugin-destructuring-newline'
-import importPlugin from 'eslint-plugin-import'
 import importNewlines from 'eslint-plugin-import-newlines'
+import importPlugin from 'eslint-plugin-import-x'
 import perfectionist from 'eslint-plugin-perfectionist'
 
 /* eslint-disable perfectionist/sort-objects */
-/** @type { import('eslint').Linter.FlatConfig[] } */
+/** @type { import('eslint').Linter.Config[] } */
 export default [
   js.configs.recommended,
   {

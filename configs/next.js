@@ -1,6 +1,6 @@
 import next from '@next/eslint-plugin-next'
 
-/** @type { import('eslint').Linter.FlatConfig[] } */
+/** @type { import('eslint').Linter.Config[] } */
 export default [
   {
     files: [ '**/*.{js, jsx, ts, tsx}' ],

@@ -1,7 +1,8 @@
-import plugin from '@kusotenpa/eslint-plugin'
 import globals from 'globals'
 
-/** @type { import('eslint').Linter.FlatConfig[] } */
+import plugin from './configs/index.js'
+
+/** @type { import('eslint').Linter.Config[] } */
 export default [
   ...plugin.configs.js,
   ...plugin.configs.ts,

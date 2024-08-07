@@ -10,32 +10,31 @@
   "author": "tom",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">=8"
+    "eslint": ">=9"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "14.1.4",
-    "@stylistic/eslint-plugin": "1.7.0",
-    "@typescript-eslint/parser": "7.3.1",
+    "@next/eslint-plugin-next": "14.2.5",
+    "@stylistic/eslint-plugin": "2.6.1",
+    "@typescript-eslint/parser": "8.0.1",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-destructuring-newline": "0.1.1",
-    "eslint-plugin-import": "2.29.1",
     "eslint-plugin-import-newlines": "1.4.0",
-    "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-perfectionist": "2.7.0",
-    "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "globals": "14.0.0",
-    "typescript-eslint": "7.3.1"
+    "eslint-plugin-import-x": "3.1.0",
+    "eslint-plugin-jsx-a11y": "6.9.0",
+    "eslint-plugin-perfectionist": "3.1.2",
+    "eslint-plugin-react": "7.35.0",
+    "eslint-plugin-react-hooks": "5.1.0-rc-187dd6a7-20240806",
+    "globals": "15.9.0",
+    "typescript-eslint": "8.0.1"
   },
   "devDependencies": {
-    "@kusotenpa/eslint-plugin": "file:.",
-    "@tsconfig/create-react-app": "2.0.2",
-    "@tsconfig/recommended": "1.0.3",
-    "@types/eslint": "8.56.6",
-    "@types/react": "18.2.69",
-    "eslint": "8.57.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.4.3"
+    "@tsconfig/create-react-app": "2.0.5",
+    "@tsconfig/recommended": "1.0.7",
+    "@types/eslint": "9.6.0",
+    "@types/react": "18.3.3",
+    "eslint": "9.8.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.5.4"
   }
 }
