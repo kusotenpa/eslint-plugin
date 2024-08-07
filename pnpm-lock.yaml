@@ -39,8 +39,8 @@ importers:
         specifier: 7.35.0
         version: 7.35.0(eslint@9.8.0)
       eslint-plugin-react-hooks:
-        specifier: 5.1.0-rc-187dd6a7-20240806
-        version: 5.1.0-rc-187dd6a7-20240806(eslint@9.8.0)
+        specifier: 5.1.0-rc-fb9a90fa48-20240614
+        version: 5.1.0-rc-fb9a90fa48-20240614(eslint@9.8.0)
       globals:
         specifier: 15.9.0
         version: 15.9.0
@@ -645,8 +645,8 @@ packages:
       vue-eslint-parser:
         optional: true
 
-  eslint-plugin-react-hooks@5.1.0-rc-187dd6a7-20240806:
-    resolution: {integrity: sha512-glBBlHhCbg/Jm50sSKiYj2aAa6Bf1IvHHg/sChrXudGHzhYPc3+0i0scSBzgxHEy5CNkA7sQwy8GM46yaSj5wA==}
+  eslint-plugin-react-hooks@5.1.0-rc-fb9a90fa48-20240614:
+    resolution: {integrity: sha512-xsiRwaDNF5wWNC4ZHLut+x/YcAxksUd9Rizt7LaEn3bV8VyYRpXnRJQlLOfYaVy9esk4DFP4zPPnoNVjq5Gc0w==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -2434,7 +2434,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-react-hooks@5.1.0-rc-187dd6a7-20240806(eslint@9.8.0):
+  eslint-plugin-react-hooks@5.1.0-rc-fb9a90fa48-20240614(eslint@9.8.0):
     dependencies:
       eslint: 9.8.0
 
