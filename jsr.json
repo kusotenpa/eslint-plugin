@@ -1,0 +1,11 @@
+{
+    "name": "@t0m/eslint-plugin",
+    "version": "0.1.0",
+    "exports": "./configs/index.js",
+    "publish": {
+        "include": [
+            "configs",
+            "README.md"
+        ]
+    }
+}
