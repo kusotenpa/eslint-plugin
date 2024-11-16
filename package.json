@@ -13,7 +13,7 @@
     "eslint": ">=9"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "14.2.5",
+    "@next/eslint-plugin-next": "14.2.18",
     "@stylistic/eslint-plugin": "2.6.1",
     "@typescript-eslint/parser": "8.0.1",
     "eslint-import-resolver-typescript": "3.6.1",
