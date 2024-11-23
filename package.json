@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.2.5",
-    "@stylistic/eslint-plugin": "2.6.1",
+    "@stylistic/eslint-plugin": "2.11.0",
     "@typescript-eslint/parser": "8.0.1",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-destructuring-newline": "0.1.1",
