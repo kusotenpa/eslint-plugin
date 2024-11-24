@@ -6,7 +6,6 @@ import reactHooks from 'eslint-plugin-react-hooks'
 /** @type { import('eslint').Linter.Config[] } */
 export default [
   {
-    files: [ '**/*.{jsx,tsx}' ],
     plugins: {
       react,
       'react-hooks': reactHooks,
@@ -20,8 +19,6 @@ export default [
     },
     languageOptions: {
       ...react.configs.flat.recommended.languageOptions,
-      ...jsxA11y.flatConfigs.recommended.languageOptions,
-      parserOptions: { ecmaFeatures: { jsx: true } },
     },
     rules: {
       ...react.configs.flat.recommended.rules,

@@ -12,8 +12,17 @@ npm install --save-dev eslint @kusotenpa/eslint-plugin
 import plugin from '@kusotenpa/eslint-plugin'
 
 export default [
-  ...plugin.configs.js,
-  ...plugin.configs.ts,
-  ...plugin.configs.react,
+  ...plugin.configs.js.map(config => ({
+    ...config,
+    files: [ '**/*.js' ],
+  })),
+  ...plugin.configs.ts.map(config => ({
+    ...config,
+    files: [ '**/*.{ts,tsx}' ],
+  })),
+  ...plugin.configs.react.map(config => ({
+    ...config,
+    files: [ '**/*.{jsx,tsx}' ],
+  })),
 ]
 ```
