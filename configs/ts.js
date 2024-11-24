@@ -1,5 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin'
-import importPlugin from 'eslint-plugin-import-x'
+import importPlugin from 'eslint-plugin-import'
 import perfectionist from 'eslint-plugin-perfectionist'
 import tsEslint from 'typescript-eslint'
 
