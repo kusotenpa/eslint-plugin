@@ -10,6 +10,7 @@ import perfectionist from 'eslint-plugin-perfectionist'
 export default [
   js.configs.recommended,
   {
+    name: 'kusotenpa/base',
     linterOptions: { reportUnusedDisableDirectives: 2 },
     plugins: {
       '@stylistic': stylistic,

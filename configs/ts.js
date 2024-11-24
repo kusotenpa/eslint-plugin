@@ -7,6 +7,7 @@ import base from './base.js'
 
 /* eslint-disable perfectionist/sort-objects */
 export default tsEslint.config({
+  name: 'kusotenpa/ts',
   extends: [
     ...base,
     ...tsEslint.configs.recommendedTypeChecked,

@@ -6,6 +6,7 @@ import reactHooks from 'eslint-plugin-react-hooks'
 /** @type { import('eslint').Linter.Config[] } */
 export default [
   {
+    name: 'kusotenpa/react',
     plugins: {
       react,
       'react-hooks': reactHooks,
