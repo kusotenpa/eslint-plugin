@@ -1,6 +1,6 @@
 {
   "name": "@kusotenpa/eslint-plugin",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "main": "configs/index.js",
   "files": [
     "configs"
